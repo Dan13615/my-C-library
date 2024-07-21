@@ -2,7 +2,7 @@ BITS 64
 SECTION .text
 global strlen
 
-strlen:
+my_strlen:
     xor rax, rax
 
     .loop:
